@@ -1,0 +1,9 @@
+<!-- TODO: cambiar a table con buscador -->
+<mat-selection-list [multiple]="false" hideSingleSelectionIndicator="true">
+    @for (song of songs; track song.id) {
+    <mat-list-option (click)="clickSong(song)" [class.selected]="audioService.selectedSong()?.id === song.id">        
+        <span>{{ song.name }}</span>
+        <mat-icon *ngIf="audioService.selectedSong()?.id === song.id" fontIcon="check"></mat-icon>
+    </mat-list-option>
+    }
+</mat-selection-list>

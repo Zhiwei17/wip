@@ -1,0 +1,5 @@
+<input type="file" accept=".mp3,.m4a,audio/*" multiple (change)="onFileUploaded($event)">
+
+<app-list *ngIf="audioService.allSongs?.length" [songs]="audioService.allSongs"></app-list>
+
+<app-controls></app-controls>
