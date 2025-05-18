@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1747343105332,
-  "index": "/wip/index.html",
+  "timestamp": 1747526494290,
+  "index": "gh-pages/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,12 +11,12 @@
         "ignoreVary": true
       },
       "urls": [
-        "/wip/favicon.ico",
-        "/wip/index.html",
-        "/wip/main-4CQT22C2.js",
-        "/wip/manifest.webmanifest",
-        "/wip/polyfills-FFHMD2TL.js",
-        "/wip/styles-TKKRLKQ2.css"
+        "gh-pages/favicon.ico",
+        "gh-pages/index.html",
+        "gh-pages/main-RCQ4MM6S.js",
+        "gh-pages/manifest.webmanifest",
+        "gh-pages/polyfills-FFHMD2TL.js",
+        "gh-pages/styles-VEWDMG7H.css"
       ],
       "patterns": []
     },
@@ -28,34 +28,34 @@
         "ignoreVary": true
       },
       "urls": [
-        "/wip/icons/icon-128x128.png",
-        "/wip/icons/icon-144x144.png",
-        "/wip/icons/icon-152x152.png",
-        "/wip/icons/icon-192x192.png",
-        "/wip/icons/icon-384x384.png",
-        "/wip/icons/icon-512x512.png",
-        "/wip/icons/icon-72x72.png",
-        "/wip/icons/icon-96x96.png"
+        "gh-pages/icons/icon-128x128.png",
+        "gh-pages/icons/icon-144x144.png",
+        "gh-pages/icons/icon-152x152.png",
+        "gh-pages/icons/icon-192x192.png",
+        "gh-pages/icons/icon-384x384.png",
+        "gh-pages/icons/icon-512x512.png",
+        "gh-pages/icons/icon-72x72.png",
+        "gh-pages/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/wip/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
-    "/wip/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
-    "/wip/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
-    "/wip/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
-    "/wip/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
-    "/wip/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
-    "/wip/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
-    "/wip/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
-    "/wip/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/wip/index.html": "a9afdeafc8b962f501afcffd9ef4c9e057fdeef4",
-    "/wip/main-4CQT22C2.js": "31290e169022342fb794e7db4858da7216331957",
-    "/wip/manifest.webmanifest": "82a81510e8c05707e6c0d6fcb0e522ea193f6c4b",
-    "/wip/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
-    "/wip/styles-TKKRLKQ2.css": "f540789f9dd08c489f3745be5b3544704da83665"
+    "gh-pages/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "gh-pages/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "gh-pages/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "gh-pages/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "gh-pages/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "gh-pages/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "gh-pages/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "gh-pages/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "gh-pages/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "gh-pages/index.html": "50d861f0a36713f87662f46b4bb8d2c9ed31c792",
+    "gh-pages/main-RCQ4MM6S.js": "424df124491a7c69a793d40849aa295c346f5251",
+    "gh-pages/manifest.webmanifest": "82a81510e8c05707e6c0d6fcb0e522ea193f6c4b",
+    "gh-pages/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
+    "gh-pages/styles-VEWDMG7H.css": "2fc933598a3b344e7637d2d5843efb69b5ee7d97"
   },
   "navigationUrls": [
     {
