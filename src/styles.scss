@@ -19,3 +19,16 @@ body {
     padding: 10px;
     -webkit-overflow-scrolling: touch; */
 }
+
+:root {
+    --mat-sys-primary-container-color: #555!important;
+    --mat-sys-on-primary-container-color: #fff!important;
+    --mat-fab-small-state-layer-color: #555;
+    --mat-sys-on-primary-container: #fff;
+
+    --mdc-fab-small-container-color: #555;
+    --mat-fab-small-foreground-color: #fff;
+
+    --mdc-filled-button-label-text-color: #FFF;
+    --mdc-filled-button-container-color: #555;
+}

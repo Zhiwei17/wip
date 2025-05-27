@@ -1,0 +1,13 @@
+.selected-song {
+    background-color: rgba(33, 128, 243, 0.5) !important;
+}
+
+mat-selection-list {
+    background-color: rgba(30, 90, 255, 0.1);
+    max-height: 70%;
+    overflow-y: auto;
+}
+
+mat-selection-list::-webkit-scrollbar {
+    display: none;
+}

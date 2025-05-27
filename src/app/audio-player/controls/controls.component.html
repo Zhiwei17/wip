@@ -1,15 +1,21 @@
-<button mat-flat-button (click)="previousSong()"><mat-icon fontIcon="skip_previous"></mat-icon></button>
-<button mat-flat-button (click)="togglePlay()">
-    <mat-icon *ngIf="audioService.isPlaying()" fontIcon="pause"></mat-icon>
-    <mat-icon *ngIf="!audioService.isPlaying()" fontIcon="play_arrow"></mat-icon>
-</button>
-<button mat-flat-button (click)="nextSong()"><mat-icon fontIcon="skip_next"></mat-icon></button>
+<div class="controls-container">
+    <div class="controls">
+        <button mat-mini-fab (click)="previousSong()"><mat-icon fontIcon="skip_previous"></mat-icon></button>
+        <button [class.active]="!audioService.isPlaying()" [class.stop]="audioService.isPlaying()" mat-flat-button (click)="togglePlay()">
+            <mat-icon *ngIf="audioService.isPlaying()" fontIcon="pause"></mat-icon>
+            <mat-icon *ngIf="!audioService.isPlaying()" fontIcon="play_arrow"></mat-icon>
+        </button>
+        <button mat-mini-fab (click)="nextSong()"><mat-icon fontIcon="skip_next"></mat-icon></button>
+    </div>
 
-<button mat-flat-button (click)="toggleRepeat()">
-    <mat-icon *ngIf="audioService.repeat()" fontIcon="repeat_one"></mat-icon>
-    <mat-icon *ngIf="!audioService.repeat()" fontIcon="repeat"></mat-icon>
-</button>
-<button mat-flat-button (click)="toggleRandom()">
-    <mat-icon *ngIf="audioService.isRandom()" fontIcon="shuffle_on"></mat-icon>
-    <mat-icon *ngIf="!audioService.isRandom()" fontIcon="shuffle"></mat-icon>
-</button>
+    <div class="controls">
+        <button [class.active]="audioService.repeat()" mat-mini-fab (click)="toggleRepeat()">
+            <mat-icon *ngIf="audioService.repeat()" fontIcon="repeat_one"></mat-icon>
+            <mat-icon *ngIf="!audioService.repeat()" fontIcon="repeat"></mat-icon>
+        </button>
+        <button [class.active]="audioService.isRandom()" mat-mini-fab (click)="toggleRandom()">
+            <mat-icon *ngIf="audioService.isRandom()" fontIcon="shuffle"></mat-icon>
+            <mat-icon *ngIf="!audioService.isRandom()" fontIcon="shuffle"></mat-icon>
+        </button>
+    </div>
+</div>

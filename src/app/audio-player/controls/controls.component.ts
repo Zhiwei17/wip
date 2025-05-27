@@ -20,6 +20,10 @@ export class ControlsComponent {
     if (this.audioService.isPlaying()) {
       this.audioService.pause();
     } else {
+      // If no song is selected, play the first song in the list
+      if (!this.audioService.selectedSong()) {
+        this.nextSong();
+      }
       this.audioService.play();
     }
     this.isPlaying = this.audioService.isPlaying();
@@ -29,6 +33,7 @@ export class ControlsComponent {
   nextSong(): void {
     this.audioService.next();
   }
+
   previousSong(): void {
     console.log('Previous song');
     // Implement logic to play the previous song

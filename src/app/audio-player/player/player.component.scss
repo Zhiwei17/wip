@@ -1,0 +1,13 @@
+.file-upload-container {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 1000;
+}
+
+.file-upload-container button {
+    background-color: transparent;
+    color: #F3F3E0;
+    border: none;
+    cursor: pointer;
+}

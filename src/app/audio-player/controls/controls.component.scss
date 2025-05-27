@@ -1,3 +1,38 @@
 button mat-icon {
     margin: 0;
 }
+
+.active {
+    --mdc-filled-button-container-color: #2180f3 !important;
+    --mdc-fab-small-container-color: #2180f3 !important;
+
+}
+
+.stop {
+    --mdc-filled-button-container-color: #d33 !important;
+
+}
+
+button {
+    // box-shadow: 0 3px 5px -3px #FFF;
+    //box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px;
+}
+
+.controls-container {
+    position: fixed;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+
+    gap: 7px;
+    margin: 1rem 0;
+    width: 100%;
+
+    padding: 0 5px;
+    box-sizing: border-box;
+}

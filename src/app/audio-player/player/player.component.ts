@@ -5,10 +5,11 @@ import { AudioService } from '../services/audio.service';
 import { ControlsComponent } from '../controls/controls.component';
 import { ListComponent } from '../list/list.component';
 import { Song } from '../types/song';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-player',
-  imports: [ControlsComponent, ListComponent, CommonModule],
+  imports: [ControlsComponent, ListComponent, CommonModule, MatIconModule],
   templateUrl: './player.component.html',
   styleUrl: './player.component.scss'
 })
@@ -55,6 +56,10 @@ export class PlayerComponent {
       }
 
     }
+  }
+
+  refreshPage(): void {
+    window.location.reload();
   }
   
 }

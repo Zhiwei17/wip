@@ -1,5 +1,14 @@
-<input type="file" accept=".mp3,.m4a,audio/*" multiple (change)="onFileUploaded($event)">
-
 <app-list *ngIf="audioService.allSongs?.length" [songs]="audioService.allSongs"></app-list>
 
 <app-controls></app-controls>
+
+<div class="file-upload-container">
+    <input #fileInput type="file" accept=".mp3,.m4a,audio/*" multiple (change)="onFileUploaded($event)" hidden>
+    <button mat-icon-button (click)="fileInput.click()" aria-label="Upload files">
+        <mat-icon fontIcon="cloud_upload"></mat-icon>
+    </button>
+
+    <button mat-icon-button (click)="refreshPage()" aria-label="Upload files">
+        <mat-icon fontIcon="refresh"></mat-icon>2
+    </button>
+</div>
